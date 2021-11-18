@@ -8,11 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Timezone
     - uses: szenius/set-timezone@v1.0
       with:
         timezoneLinux: "Europe/Amsterdam"
-
+    - name: Timezone
     - uses: actions/checkout@v2
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
