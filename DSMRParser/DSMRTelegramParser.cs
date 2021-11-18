@@ -161,7 +161,7 @@ namespace DSMRParser
 
                 return null;    // No exceptions, all went well!
             }
-            // If we reache this point it must be an invalid format.
+            // If we reach this point it must be an invalid format.
             return new TelegramFormatException();
         }
 
